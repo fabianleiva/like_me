@@ -1,0 +1,68 @@
+
+Started POST /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:51:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"titulo":"fabo","url":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fintl-es%2Fartist%2F5AUaXsLmgAa831JUIR3Cmr&psig=AOvVaw08u7bw7uXEzlvkSdsk78fB&ust=1709509878476000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDIz9ri1oQDFQAAAAAdAAAAABAE","descripcion":"fabo1"}
+Completed: 404 message:  Time response: 5 ms Request ID: [01ae2992-ef38-4915-8c6d-2e2d90f1846c]
+
+Started POST /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:53:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"titulo":"fabo","url":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fintl-es%2Fartist%2F5AUaXsLmgAa831JUIR3Cmr&psig=AOvVaw08u7bw7uXEzlvkSdsk78fB&ust=1709509878476000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDIz9ri1oQDFQAAAAAdAAAAABAE","descripcion":"fabo1"}
+Completed: 500 message:  Time response: 6 ms Request ID: [6f89186f-305a-45c0-9d9a-dbb059999b2d]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:54:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 32 ms Request ID: [af8a2afe-654c-4008-ae4f-b82148e40326]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:54:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 39 ms Request ID: [fc1fd38a-2c79-410b-b642-177896d3d171]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:54:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 24 ms Request ID: [aa3890e0-6fd1-418a-ac78-231bbe1e40e5]
+
+Started POST /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:54:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"titulo":"fabo","img":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fintl-es%2Fartist%2F5AUaXsLmgAa831JUIR3Cmr&psig=AOvVaw08u7bw7uXEzlvkSdsk78fB&ust=1709509878476000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDIz9ri1oQDFQAAAAAdAAAAABAE","descripcion":"fabianisimo"}
+Completed: 500 message:  Time response: 5 ms Request ID: [2afcd710-b0b1-4852-929b-d8ce650ad099]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 36 ms Request ID: [f03e2b6d-2912-44a0-9937-af82fa272402]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 28 ms Request ID: [15ec3f64-2384-4f7e-8e8f-940b20b9ea53]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 137 ms Request ID: [3b7f0f0c-1110-4974-9395-ef2225fcc27f]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 23 ms Request ID: [da05cadc-a967-4759-bce6-73a6eda5149d]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 31 ms Request ID: [585cffd8-a0ba-4868-a07a-e4308a8493b1]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 28 ms Request ID: [07154187-ac05-48c0-9320-bbaf744e02b3]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 25 ms Request ID: [87e65038-217e-4906-8217-f0d12380f968]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:55:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 26 ms Request ID: [95dafba5-1469-4acf-a9f1-42282fb8814f]
+
+Started GET /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:56:14 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 26 ms Request ID: [b064c716-545f-49ca-b9df-9aed8169decf]
+
+Started POST /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:57:16 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"titulo":"fabo","url":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fintl-es%2Fartist%2F5AUaXsLmgAa831JUIR3Cmr&psig=AOvVaw08u7bw7uXEzlvkSdsk78fB&ust=1709509878476000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDIz9ri1oQDFQAAAAAdAAAAABAE","descripcion":"FABITO"}
+Completed: 500 message:  Time response: 4 ms Request ID: [9a08be6b-6b16-439c-b203-b76849d91e68]
+
+Started POST /api/v1/posts for :: ::1 at Sat Mar 02 2024 20:58:23 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"titulo":"fabo","url":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fintl-es%2Fartist%2F5AUaXsLmgAa831JUIR3Cmr&psig=AOvVaw08u7bw7uXEzlvkSdsk78fB&ust=1709509878476000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDIz9ri1oQDFQAAAAAdAAAAABAE","descripcion":"FABITO"}
+Completed: 500 message:  Time response: 6 ms Request ID: [47ff802d-3553-4d43-bf6d-33f1a3963abf]
