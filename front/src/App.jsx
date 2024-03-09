@@ -13,7 +13,7 @@ function App() {
 
   const getPosts = async () => {
     const { data: posts } = await axios.get(urlBaseServer + "/posts");
-    setPosts([...posts.posts]);
+    setPosts([...posts]);
   };
 
   const agregarPost = async () => {
