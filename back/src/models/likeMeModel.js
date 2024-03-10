@@ -5,8 +5,10 @@ const getPostData = async () => {
   const response = await pool.query(SQLquery);
   return response.rows;
 };
-
 const createPostData = async ({ titulo, img, descripcion }) => {
+  if (titulo.trim() === "" || img.trim() === "" || descripcion.trim() === "") {
+    throw new Error("Debes llenar todos los campos requeridos");
+  }
   const SQLquery = {
     text: "INSERT INTO posts (titulo, img, descripcion, likes) VALUES ($1, $2, $3, $4) RETURNING *",
     values: [titulo, img, descripcion, 0],
@@ -33,4 +35,13 @@ const deletePostData = async (id) => {
   return response.rows;
 };
 
-export { getPostData, createPostData, editPostLikes, deletePostData };
+const findId = async (id) => {
+  const SQLquery = {
+    text: "SELECT * FROM posts WHERE id = $1",
+    values: [id],
+  };
+  const response = await pool.query(SQLquery);
+  return response.rows[0];
+};
+
+export { getPostData, createPostData, editPostLikes, deletePostData, findId };
